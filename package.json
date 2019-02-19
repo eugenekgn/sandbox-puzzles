@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test-smallest": "mocha ./removeSmallest.js",
+    "test-exp": "mocha ./mostExp.js"
+  },
   "dependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^6.0.0"
   }
 }
