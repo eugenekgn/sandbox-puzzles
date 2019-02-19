@@ -14,7 +14,7 @@ const engineers = [
     lastName: "Rafaev",
     country: "Tajikistan",
     continent: "Asia",
-    age: 14,
+    experience: 14,
     language: ["C#", "JavaScript", "PHP"]
   },
   {
@@ -30,7 +30,7 @@ const engineers = [
     lastName: "engineers",
     country: "United States",
     continent: "North America",
-    experience: 31,
+    experience: 9,
     language: ["Ruby"]
   },
   {
