@@ -1,4 +1,4 @@
-// Find engineers that have the most experience by age, if there are two engineers with the same age both should be retrieved in the same order as they appear
+// Find engineers that have the most experience, if there are two engineers with the exactly the same number of years of experience both should be retrieved in the same order as they appear in the array
 var assert = require("assert");
 const engineers = [
   {
@@ -6,7 +6,7 @@ const engineers = [
     lastName: "Devers",
     country: "Dominican Republic",
     continent: "North America",
-    age: 29,
+    experience: 1,
     language: ["JavaScript", "CSS", "Swift"]
   },
   {
@@ -14,7 +14,7 @@ const engineers = [
     lastName: "Rafaev",
     country: "Tajikistan",
     continent: "Asia",
-    age: 33,
+    age: 14,
     language: ["C#", "JavaScript", "PHP"]
   },
   {
@@ -22,7 +22,7 @@ const engineers = [
     lastName: "Kagan",
     country: "Belarus",
     continent: "Europe",
-    age: 31,
+    experience: 10,
     language: ["JavaScript", "C#"]
   },
   {
@@ -30,7 +30,7 @@ const engineers = [
     lastName: "engineers",
     country: "United States",
     continent: "North America",
-    age: 31,
+    experience: 31,
     language: ["Ruby"]
   },
   {
@@ -38,7 +38,7 @@ const engineers = [
     lastName: "Kroon",
     country: "Australia",
     continent: "Australia",
-    age: 33,
+    experience: 14,
     language: ["C#", "JavaScript"]
   }
 ];
