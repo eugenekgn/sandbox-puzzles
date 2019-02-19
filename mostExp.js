@@ -66,6 +66,6 @@ describe("Engineers", () => {
       }
     ];
 
-    assert.equal(getEngineersByMostExperience(engineers), results);
+    assert.deepEqual(getEngineersByMostExperience(engineers), results);
   });
 });

@@ -1,4 +1,4 @@
-// remove the smallest number from each array without modifying the original array
+// remove ONLY the first smallest number from each array without modifying the original array
 
 var assert = require("assert");
 
