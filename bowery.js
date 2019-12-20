@@ -1,9 +1,31 @@
 const bowery = [
-  { id: "john/co-founder", parent: "null" },
-  { id: "cesar/co-founder", parent: "null" },
-  { id: "noah/co-founder", parent: "null" },
+  { id: "john", parent: "null" },
+  { id: "cesar", parent: "null" },
+  { id: "noah", parent: "null" },
+  { id: "james", parent: "noah" }
   { id: "eugene", parent: "cesar" },
   { id: "richard", parent: "cesar" },
   { id: "j3", parent: "richard" },
-  { id: "madeline", parent: "eugene" }
+  { id: "sharif", parent: "james" }
+  { id: "lee", parent: "sharif" }
+  
 ];
+
+const output = {
+  john: {},
+  noah: {
+    james: {
+      sharif: {
+        lee: {}
+      }
+    }
+  },
+  cesar: {
+    richard: {
+      j3: {}
+    },
+    eugene: {
+      madeline: {}
+    }
+  }
+};
